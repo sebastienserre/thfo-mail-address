@@ -1,0 +1,15 @@
+{
+  "name": "Thivinfo/thfo-mail-address",
+  "description": "Simply change default from e-mail adress",
+  "license": "GPL-2.0",
+  "authors": [
+    {
+      "name": "Thivinfo",
+      "email": "sebastien@thivinfo.com"
+    }
+  ],
+  "type" : "wordpress-muplugin",
+  "require" : {
+    "composer/installers" : "~1.0"
+  }
+}
