@@ -21,7 +21,7 @@ It's recommended to use at it as mu-plugin. As it is a folder you must use a MU 
 
 ### Manual
 
-1. Copy the plugin folder into your must use plugins folder.
+1. Copy the plugin folder into your must-use plugins folder or directly the mail-address.php file on wp-content/mu-plugins folder.
 
 
 ## Changelog
