@@ -13,9 +13,23 @@ License: GPL2
 add_filter('wp_mail_from','thfo_chg_mail');
 
 function thfo_chg_mail(){
+
 	$sitename = strtolower( $_SERVER['SERVER_NAME'] );
-//	$sitename = substr($sitename, 4); // need to uncomment if www. present
+	$www = strpos($sitename, '//www.');
+
+
+	if ( $www ) {
+		$sitename = substr($sitename, 4);
+	}
+
+
+	if ( $_SERVER['HTTPS'] &&  $www){
+		$sitename = substr($sitename, 5);
+	}
+
+
 	$from_email = 'contact@' . $sitename;
+
 	return $from_email;
 }
 
