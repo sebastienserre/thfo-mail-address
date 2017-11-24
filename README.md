@@ -16,7 +16,7 @@ It's recommended to use at it as mu-plugin. As it is a folder you must use a MU 
 ### via Composer
 
 1. Add a line to your repositories array: `{ "type": "vcs", "url": "https://github.com/sebastienserre/thfo-mail-address" }`
-2. Add a line to your require block: `"thivinfo/thfo-mail-address": "dev-master"`
+2. Add a line to your require block: `"sebastienserre/thfo-mail-address": "dev-master"`
 3. Run: `composer update`
 
 ### Manual
