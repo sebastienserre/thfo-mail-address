@@ -1,10 +1,10 @@
 {
-  "name": "thivinfo/thfo-mail-address",
+  "name": "sebastienserre/thfo-mail-address",
   "description": "Simply change default from e-mail adress",
   "license": "GPL-2.0",
   "authors": [
     {
-      "name": "Thivinfo",
+        "name": "sebastienserre",
       "email": "sebastien@thivinfo.com"
     }
   ],
