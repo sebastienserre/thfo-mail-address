@@ -4,7 +4,7 @@
 	Plugin Name: THFO Mail-address
 	Plugin URI: http://ww.thivinfo.com
 	Description: (Mu-)Plugin to change default wordpress@example.com
-	Version: 1.1.0
+	Version: 1.1.1
 	Author: sebastienserre
 	Author URI: https://www.paypal.me/sebastienserre
 	License: GPL2
@@ -45,7 +45,6 @@
 
 		$from_email = MAIL_CONTACT . '@' . $sitename;
 
-		var_dump($from_email); die;
 		return $from_email;
 	}
 
