@@ -35,7 +35,7 @@
 			}
 
 
-			if ( $_SERVER['HTTPS'] && $www ) {
+			if ( isset ($_SERVER) && $_SERVER['SERVER_PORT'] === '443' && $www ) {
 				$sitename = substr( $sitename, 5 );
 			}
 		} else {

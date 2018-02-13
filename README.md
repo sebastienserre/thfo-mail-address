@@ -26,11 +26,12 @@ It's recommended to use at it as mu-plugin. As it is a folder you must use a MU 
 
 ## Changelog
 
-### 1.1.1 - 13 Jan 2018
-Removing var_dump and die is better to make the stuff work :-)
+### 1.1.1 - 13 Feb 2018
+* Better HTTPS detection to construct the mail domain
+* Removing var_dump and die is better to make the stuff work :-)
 
 ### 1.1.0 - 24 Nov 2017
-You can define by constant the different part of the mail to use...
+* You can define by constant the different part of the mail to use...
 
 ### 1.0.0 - 06 Sep 2017
 * Initial
